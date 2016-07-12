@@ -10,6 +10,162 @@ body {
   line-height: 1.3;
 }
 
+header{
+  background-color: #222222;
+}
+
+header nav{
+  background-color: #222222;
+  float: left;
+  display: block;
+  padding: 25px 15px 25px 75px;
+  width: 960px;
+
+}
+
+nav a{
+  width: 960px;
+  color: white;
+  text-decoration: none;
+  clear: both;
+}
+
+a:hover{
+  background-color:#1FA2E1;
+}
+
+h3.col{
+  font-family: "Permanent Marker";
+  color: #cccccc;
+}
+
+h4{
+  border-top: 1px dashed #666666;
+  border-bottom: 1px dashed #666666;
+  padding: 8px 0px 8px 0px;
+}
+
+h4 a {
+  color: #1FA2E1;
+  text-decoration: none;
+}
+
+article{
+  width: 290px;
+  float: left;
+  margin-right: 25px;
+}
+
+article a{
+  color: #1FA2E1;
+  text-decoration: none;
+
+}
+
+article img{
+  border: 3px solid #eeeeee;
+  margin: 10px 20px 10px 0px;
+}
+
+article p{
+  margin-bottom: 10px;
+}
+
+blockquote{
+  clear: both;
+  width: 960px;
+  border: 2px solid #eeeeee;
+  margin: 10px auto 10px auto;
+  text-align: center;
+  padding: 10px 20px 10px 10px;
+
+}
+
+footer{
+  clear: both;
+  background-color: #222222;
+  color: #aaaaaa;
+  padding-top: 20px;
+  padding-bottom: 100px;
+
+}
+
+p a{
+  color: #1FA2E1;
+  text-decoration: none;
+}
+
+.author{
+  float: right;
+}
+
+.col{
+  float:left;
+  padding-right: 30px;
+}
+
+.col1, .col3{
+  width: 210px;
+}
+
+.col2{
+  width: 400px;
+}
+
+.col3{
+  padding-left: 20px;
+}
+
+.copyright{
+  float: left;
+  padding-top: 10px;
+}
+
+.container{
+  margin: 0 auto;
+}
+
+.hero{
+  clear: both;
+  background-image: url(../images/photobanner.png);
+  background-size: cover;
+  height: 500px;
+}
+
+.logo{
+  float: left;
+  clear: both;
+  padding-top: 20px;
+ 
+}
+
+.main{
+  clear: both;
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+
+.social{
+  float: right;
+  padding-top: 20px;
+}
+
+.theme{
+  float: right;
+  padding-top: 10px;
+}
+
+.top a {
+  padding: 20px 20px 20px 20px;
+  width: 960px;
+}
+
+.wrapper{
+  margin: 0 auto;
+  width: 960px;
+
+}
+
 /* Utility clearing classes you may use. */
 .clear {
   clear: both;
